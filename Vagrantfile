@@ -67,7 +67,7 @@ Vagrant.configure("2") do |config|
 
                     :nginx => {
                       :user  =>  'www-data',
-                      :users => [{ username: 'USERNAME', password: 'PASSWORD' }]
+                      :users => [{ username: 'admin', password: 'password' }]
                     },
                     # For testing flat attributes:
                     "index.search.slowlog.threshold.query.trace" => "1ms",
