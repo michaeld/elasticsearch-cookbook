@@ -47,6 +47,7 @@ Vagrant.configure("2") do |config|
                   },
 
                   :elasticsearch => {
+                    :version => "1.1.0",
                     :cluster => { :name => "elasticsearch_vagrant" },
 
                     :plugins => {
