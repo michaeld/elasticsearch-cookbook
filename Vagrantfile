@@ -53,6 +53,9 @@ Vagrant.configure("2") do |config|
                     :plugins => {
                       'karmi/elasticsearch-paramedic' => {
                         :url => 'https://github.com/karmi/elasticsearch-paramedic/archive/master.zip'
+                      },
+                      'elasticsearch/elasticsearch-cloud-aws' => {
+                        :version => '2.1.0'
                       }
                     },
 
